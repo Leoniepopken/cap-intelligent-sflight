@@ -41,7 +41,7 @@ annotate TravelService.Travel with @UI : {
     { $Type  : 'UI.DataFieldForAction', Action : 'TravelService.acceptTravel',   Label  : '{i18n>AcceptTravel}'   },
     { $Type  : 'UI.DataFieldForAction', Action : 'TravelService.rejectTravel',   Label  : '{i18n>RejectTravel}'   },
     { $Type  : 'UI.DataFieldForAction', Action : 'TravelService.deductDiscount', Label  : '{i18n>DeductDiscount}' },
-    { $Type  : 'UI.DataFieldForAction', Action : 'TravelService.deductDiscount', Label  : 'Generate report' },
+    { $Type  : 'UI.DataFieldForAction', Action : 'TravelService.generateReport', Label  : 'Generate report' },
     {
       Value : TravelID,
       @UI.Importance : #High
