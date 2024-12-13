@@ -134,6 +134,17 @@
                             "controlConfiguration": {
                                 "@com.sap.vocabularies.UI.v1.SelectionFields": {
                                     "useSemanticDateRange": true
+                                },
+                                "@com.sap.vocabularies.UI.v1.LineItem": {
+                                    "actions": {
+                                        "GenerateReportButtonExtension": {
+                                            "press": "sap.fe.cap.travel.ext.generateReportButtonExtension.GenerateReportButtonExtension.generateReport",
+                                            "visible": true,
+                                            "enabled": true,
+                                            "requiresSelection": true,
+                                            "text": "Generate Report"
+                                        }
+                                    }
                                 }
                             },
                             "variantManagement": "Page",
